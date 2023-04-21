@@ -37,6 +37,7 @@ const Header = ({placeholder}) => {
   const router = useRouter();
 
   const  searchFor = async () => {
+    if(search)
    await new Promise(success=>{
     router.push({
       pathname: "/search",

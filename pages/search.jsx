@@ -44,7 +44,7 @@ const search = ({searchResults}) => {
               <p className="tag capitalize">attraction</p>
             </div>
           </div>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 mt-8 items-center md:items-stretch">
             {searchResults.map((el,i)=><SearchItem {...el} />)}
           </div>
         </section>
