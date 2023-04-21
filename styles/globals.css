@@ -5,3 +5,7 @@
 .myScroll::-webkit-scrollbar {
   display: none;
 }
+
+.tag{
+  @apply px-6 py-2 shadow-sm rounded-full text-gray-700 duration-150 hover:shadow-md cursor-pointer ease-out active:bg-gray-100 active:scale-90 shadow-gray-400 hover:shadow-gray-400 whitespace-nowrap
+}

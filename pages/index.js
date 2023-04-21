@@ -6,6 +6,8 @@ import Banner from '@/components/Banner'
 import SmallCard from '@/components/SmallCard'
 import MediumCard from '@/components/MediumCard'
 import LargCard from '@/components/LargCard'
+import Footer from '@/components/Footer'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,7 +27,7 @@ export default function Home({exploreData,imgData}) {
 <section className='p-4'>
 <h1 className='font-bold text-2xl'>Explore Nearby</h1>
 
-<div className='mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3'>
+<div className='mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
   {exploreData?.map((item,i)=><SmallCard key={i} {...item} />)}
 </div>
 
@@ -49,7 +51,7 @@ buttonText='Get Inspired'
 
 
 </main>
-  
+  <Footer />
   
   </div>
   )
