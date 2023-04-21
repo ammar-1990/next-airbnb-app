@@ -18,6 +18,8 @@ export default function Home({exploreData,imgData}) {
     <title>
       Airbnb
     </title>
+
+    <link rel='icon' href='/assets/airbnblogo.png'/>
   </Head>
   
 <Header/>

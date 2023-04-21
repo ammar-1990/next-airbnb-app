@@ -93,7 +93,7 @@ const Header = ({placeholder}) => {
         </div>
       </div>
       {search && (
-        <div className="flex flex-col max-w-fit  mx-auto mt-5 pr-24 ">
+        <div className="flex flex-col max-w-fit  mx-auto mt-5 md:pr-24 ">
           {" "}
           <DateRangePicker
             ranges={[selectionRange]}
